@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEND M - Restaurant</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+  <!-- Navbar verticale -->
+<nav class="vertical-navbar d-flex flex-column p-3 animate__animated animate__fadeInLeft">
+  <div class="navbar-toggle-icon text-white">
+    <i class="bi bi-list"></i>
+  </div>
+  <a class="navbar-brand fw-bold text-white text-center" href="#">TEND M</a>
+  <ul class="nav nav-pills flex-column mb-auto">
+    <li class="nav-item">
+      <a class="nav-link active" href="index.html">
+        <i class="bi bi-house-door-fill"></i> Accueil
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="menu.html">
+        <i class="bi bi-menu-button-wide"></i> Menu
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="panier.html">
+        <i class="bi bi-cart-fill"></i> Panier
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="reservation.html">
+        <i class="bi bi-calendar-check"></i> Réservation
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html">
+        <i class="bi bi-envelope-fill"></i> Contact
+      </a>
+    </li>
+  </ul>
+</nav>
+
+
+  <div class="main-content">
+    <!-- Hero -->
+    <section class="hero-section text-white text-center d-flex align-items-center" style="background: linear-gradient(135deg, #ff9900, #ff6600); height: 100vh;">
+      <div class="container">
+        <h1 class="display-3 fw-bold animate__animated animate__fadeInDown">Bienvenue chez TEND M</h1>
+        <p class="lead animate__animated animate__fadeInUp">Savourez la cuisine malgache avec passion</p>
+        <a href="menu.html" class="btn btn-warning btn-lg mt-4 animate__animated animate__zoomIn">Voir le Menu</a>
+      </div>
+    </section>
+
+    <!-- À propos -->
+<section class="bg-light text-center py-5 animate__animated animate__fadeInUp" id="apropos">
+    <div class="container">
+      <h2 class="mb-4 animate__animated animate__fadeInDown">À propos de nous</h2>
+      <p class="lead text-muted mb-5 animate__animated animate__fadeInLeft">Chez <strong>TEND M</strong>, nous vous offrons une expérience culinaire unique, avec des plats inspirés de la tradition malgache et préparés avec passion.</p>
+  
+      <div class="row justify-content-center animate__animated animate__fadeInRight">
+        <div class="col-md-8">
+          <div class="history-box p-4 rounded shadow-sm bg-white">
+            <h4 class="mb-3">Notre Histoire</h4>
+            <p class="text-muted">
+              Fondé en 2022 au cœur d'Ampandrana, <strong>TEND M</strong> est né d'une passion familiale pour la cuisine malgache. Ce petit restaurant chaleureux est rapidement devenu une référence locale grâce à ses plats authentiques, son accueil convivial et sa volonté de faire découvrir le vrai goût de Madagascar.
+            </p>
+            <p class="text-muted">
+              Chaque plat est une invitation au voyage culinaire, mêlant tradition, savoir-faire et une touche moderne.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!-- Menu -->
+<section id="menu" class="text-center bg-white animate__animated animate__fadeInUp py-5">
+    <div class="container">
+      <h2 class="mb-4">Notre Menu</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <div class="image-container">
+              <img src="assets/img/tsaramaso_kisoa.jfif" class="card-img-top" alt="Plat 1">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Henakisoa sy tsaramaso</h5>
+              <p class="card-text">Une de notre spécialité.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <div class="image-container">
+              <img src="assets/img/ravitoto_kisoa.jfif" class="card-img-top" alt="Plat 2">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Ravitoto sy Henakisoa</h5>
+              <p class="card-text">Spécialité Malagasy.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <div class="image-container">
+              <img src="assets/img/henomby.jfif" class="card-img-top" alt="Plat 3">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Henomby ritra</h5>
+              <p class="card-text">Très bon avec du romazava.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Bouton Voir Plus -->
+      <div class="text-center mt-4">
+        <a href="menu.html" class="btn btn-stylish">Voir plus</a>
+      </div>
+    </div>
+  </section>
+  
+  
+    <!-- Galerie -->
+<section id="galerie" class="bg-light text-center animate__animated animate__fadeIn py-5">
+    <div class="container">
+      <h2 class="mb-5">Galerie</h2>
+      <div id="galerieCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row g-3">
+              <div class="col-md-3">
+                <div class="image-container">
+                  <img src="assets/img/minesao-crevette.jpg" class="img-fluid rounded shadow-sm" alt="gal1">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="image-container">
+                  <img src="assets/img/minesao-poulet.jpg" class="img-fluid rounded shadow-sm" alt="gal2">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="image-container">
+                  <img src="assets/img/minesao-simple.jpg" class="img-fluid rounded shadow-sm" alt="gal3">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="image-container">
+                  <img src="assets/img/spaghetti-bolognaise-parmesan.jpg" class="img-fluid rounded shadow-sm" alt="gal4">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row g-3">
+              <div class="col-md-3">
+                <div class="image-container">
+                  <img src="assets/img/ChatGPT Image 19 avr. 2025, 18_34_06.png" class="img-fluid rounded shadow-sm" alt="gal5">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="image-container">
+                  <img src="assets/img/ChatGPT Image 19 avr. 2025, 18_38_02.png" class="img-fluid rounded shadow-sm" alt="gal6">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="image-container">
+                  <img src="assets/img/ChatGPT Image 19 avr. 2025, 18_38_07.png" class="img-fluid rounded shadow-sm" alt="gal7">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="image-container">
+                  <img src="assets/img/ChatGPT Image 19 avr. 2025, 19_36_48.png" class="img-fluid rounded shadow-sm" alt="gal8">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Flèches -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#galerieCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+          <span class="visually-hidden">Précédent</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#galerieCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+          <span class="visually-hidden">Suivant</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  
+
+    <!-- Horaires -->
+    <section id="horaires" class="text-center animate__animated animate__fadeInUp py-5">
+        <div class="container">
+          <h2 class="mb-4">Horaires d'ouverture</h2>
+          <p>Lundi - Vendredi : 10h - 22h</p>
+          <p>Samedi - Dimanche : 12h - 23h</p>
+      
+          <!-- Bouton Réserver -->
+          <a href="reservation.html" class="btn btn-reservation mt-4 animate__animated animate__tada">
+            <i class="bi bi-calendar-check-fill me-2"></i>Réserver une table
+          </a>
+        </div>
+      </section>
+      
+
+ <!-- Carte -->
+<section id="carte" class="text-center bg-light animate__animated animate__fadeIn py-5">
+  <div class="container">
+    <h2 class="mb-4">Nous Trouver</h2>
+    <div id="bingMap" class="shadow rounded overflow-hidden" style="width: 100%; height: 500px;"></div>
+    <div class="mt-3">
+      <a class="btn btn-primary shadow-sm" target="_blank" href="https://www.facebook.com/tendmrestaurant">
+        <i class="bi bi-facebook me-2"></i>Facebook
+      </a>
+    </div>
+  </div>
+</section>
+
+<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=VOTRE_CLE_API_BING&callback=initMap' async defer></script>
+<script>
+  function initMap() {
+    const map = new Microsoft.Maps.Map('#bingMap', {
+      center: new Microsoft.Maps.Location(-18.917006, 47.540516),
+      zoom: 16
+    });
+
+    const location = new Microsoft.Maps.Location(-18.917006, 47.540516);
+
+    const pushpin = new Microsoft.Maps.Pushpin(location, {
+      title: 'TEND M',
+      subTitle: 'Restaurant',
+      text: '🍽️'
+    });
+
+    const infobox = new Microsoft.Maps.Infobox(location, {
+      title: 'TEND M Restaurant',
+      description: '<strong>Adresse :</strong> Antananarivo<br><a href="https://www.facebook.com/tendmrestaurant" target="_blank">Voir sur Facebook</a>',
+      visible: false
+    });
+
+    infobox.setMap(map);
+
+    Microsoft.Maps.Events.addHandler(pushpin, 'click', () => {
+      infobox.setOptions({ visible: true });
+    });
+
+    map.entities.push(pushpin);
+  }
+</script>
+
+  
+  
+
+    <!-- Contact -->
+    <section id="contact" class="text-center">
+        <div class="container">
+          <h2 class="mb-4">Contactez-nous</h2>
+          <div class="social-icons mb-4">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-whatsapp"></i></a>
+          </div>
+          <a href="contact.html" class="btn btn-ecrire animate__animated animate__pulse animate__infinite">Écrire</a>
+        </div>
+      </section>
+<!-- Footer Sticky -->
+<footer class="text-center py-5 bg-dark text-white animate__animated animate__fadeInUp sticky-footer">
+    <div class="container">
+      <p class="mb-3">&copy; TEND-M 2025</p>
+  
+      <div class="mb-3">
+        <p class="mb-1">
+          <i class="bi bi-person-circle me-2 text-warning"></i><strong>Créateur :</strong> Princy Rajaonarison
+        </p>
+        <p class="mb-1">
+          <i class="bi bi-telephone-fill me-2 text-success"></i>
+          <a href="tel:+261376086589" class="text-white text-decoration-none">037 60 865 89</a>
+        </p>
+        <p class="mb-1">
+          <i class="bi bi-envelope-fill me-2 text-info"></i>
+          <a href="mailto:princyrajy26@gmail.com" class="text-white text-decoration-none">princyrajy26@gmail.com</a>
+        </p>
+        <p class="mb-1">
+          <i class="bi bi-whatsapp me-2 text-success"></i>
+          <a href="https://wa.me/261376086589" target="_blank" class="text-white text-decoration-none">WhatsApp : 037 60 865 89</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
